@@ -42,16 +42,24 @@ We have provided the `requirements.txt` for the python environment without NxSDK
 
 To train PopSAN using TD3 algorithm, execute the following commands to start training:
 
-cd corl_code/popsan_drl/popsan_td3
+```bash
+cd <Dir>/<Project Name>/popsan_drl/popsan_td3
 python td3_cuda_norm.py --env HalfCheetah-v3
+```
 
-This will automatically train 1 million steps. Trainings for DDPG, SAC, and PPO are the same.
+This will automatically train 1 million steps and save the trained models. Trainings for DDPG, SAC, and PPO are the same.
 
 #### 2. Deploy the trained PopSAN on Loihi ####
 
 To evaluate PopSAN realization on Loihi, execute the following commands to start testing:
 
-cd corl_code/loihi_realization
+```bash
+cd <Dir>/<Project Name>/loihi_realization
 python test_loihi.py
+```
 
-This will test the 10 trained models on Loihi. To run the code correctly, <data_dir> value in the script need to be changed to the folder storing all trained models.
+This will test the 10 trained models on Loihi. To run the code correctly, `data_dir` value in the script need to be changed to the folder storing all trained models.
+
+### Acknowledgment ###
+
+This work is supported by Intel's Neuromorphic Research Community Grant Award.
