@@ -9,10 +9,10 @@ import pickle
 import os
 import sys
 
-sys.path.append('../../../')
-from corl_code.popsan_drl.popsan_td3.replay_buffer_norm import ReplayBuffer
-from corl_code.popsan_drl.popsan_td3.popsan import PopSpikeActor
-from corl_code.popsan_drl.popsan_td3.core_cuda import MLPQFunction
+sys.path.append('../../')
+from popsan_drl.popsan_td3.replay_buffer_norm import ReplayBuffer
+from popsan_drl.popsan_td3.popsan import PopSpikeActor
+from popsan_drl.popsan_td3.core_cuda import MLPQFunction
 
 
 class SpikeActorDeepCritic(nn.Module):

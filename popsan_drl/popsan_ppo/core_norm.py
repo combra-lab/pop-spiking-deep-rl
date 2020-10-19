@@ -3,9 +3,9 @@ import torch.nn as nn
 from torch import sqrt
 from torch.distributions.normal import Normal
 import sys
-sys.path.append("../../../")
+sys.path.append("../../")
 
-from corl_code.popsan_drl.popsan_ppo.popsan import PopSpikeActor
+from popsan_drl.popsan_ppo.popsan import PopSpikeActor
 
 
 class CriticNet(nn.Module):

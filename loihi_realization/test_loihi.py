@@ -6,11 +6,11 @@ import pickle
 import math
 import sys
 
-sys.path.append("../../../")
-from corl_code.popsan_drl.popsan_td3.replay_buffer_norm import ReplayBuffer
-from corl_code.popsan_drl.popsan_td3.popsan import PopSpikeActor
-from corl_code.loihi_realization.popsan_loihi import SpikingActorNet
-from corl_code.loihi_realization.utility import read_pytorch_network_parameters_4_loihi, \
+sys.path.append("../../")
+from popsan_drl.popsan_td3.replay_buffer_norm import ReplayBuffer
+from popsan_drl.popsan_td3.popsan import PopSpikeActor
+from loihi_realization.popsan_loihi import SpikingActorNet
+from loihi_realization.utility import read_pytorch_network_parameters_4_loihi, \
     combine_multiple_into_one_int, decoder_multiple_from_one_int
 
 

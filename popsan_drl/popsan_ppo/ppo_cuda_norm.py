@@ -7,9 +7,9 @@ import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
 import sys
 
-sys.path.append("../../../")
-from corl_code.popsan_drl.popsan_ppo.core_norm import *
-from corl_code.popsan_drl.popsan_ppo.utils.multiprocessing_env import *
+sys.path.append("../../")
+from popsan_drl.popsan_ppo.core_norm import *
+from popsan_drl.popsan_ppo.utils.multiprocessing_env import *
 
 
 def make_env(env_name):

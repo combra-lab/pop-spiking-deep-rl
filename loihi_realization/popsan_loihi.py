@@ -5,8 +5,8 @@ from nxsdk.graph.monitor.probes import SpikeProbeCondition
 from nxsdk.graph.processes.phase_enums import Phase
 import os
 import sys
-sys.path.append('../../../')
-from corl_code.loihi_realization.utility import pytorch_trained_snn_param_2_loihi_snn_param
+sys.path.append('../../')
+from loihi_realization.utility import pytorch_trained_snn_param_2_loihi_snn_param
 
 
 class SpikingActorNet:
