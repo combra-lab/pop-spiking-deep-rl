@@ -1,6 +1,6 @@
 # DRL with Population Coded Spiking Neural Network
 
-This package is the PyTorch implentation of the **Pop**ulation-coded **S**piking **A**ctor **N**etwork (**PopSAN**) that integrates with both on-policy (PPO) and off-policy (DDPG, TD3, SAC) DRL algorithms for learning optimal and energy-efficient continuous control.
+This package is the PyTorch implementation of the **Pop**ulation-coded **S**piking **A**ctor **N**etwork (**PopSAN**) that integrates with both on-policy (PPO) and off-policy (DDPG, TD3, SAC) DRL algorithms for learning optimal and energy-efficient continuous control policies.
 
 The paper has been accepted at CoRL 2020.
 
@@ -40,14 +40,14 @@ We have provided the `requirements.txt` for the python environment without NxSDK
 
 #### 1. Training PopSAN ####
 
-To train PopSAN using TD3 algorithm, execute the following commands to start training:
+To train PopSAN using TD3 algorithm, execute the following commands:
 
 ```bash
 cd <Dir>/<Project Name>/popsan_drl/popsan_td3
 python td3_cuda_norm.py --env HalfCheetah-v3
 ```
 
-This will automatically train 1 million steps and save the trained models. Trainings for DDPG, SAC, and PPO are the same.
+This will automatically train 1 million steps and save the trained models. The steps to train DDPG, SAC, and PPO are the same as above.
 
 #### 2. Deploy the trained PopSAN on Loihi ####
 
@@ -58,7 +58,7 @@ cd <Dir>/<Project Name>/loihi_realization
 python test_loihi.py
 ```
 
-This will test the 10 trained models on Loihi. To run the code correctly, `data_dir` value in the script need to be changed to the folder storing all trained models.
+This will test the 10 trained models on Loihi. To run the code correctly, `data_dir` value in the script needs to be changed to the folder that stores all trained models.
 
 ### Acknowledgment ###
 
