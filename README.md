@@ -3,6 +3,7 @@
 This package is the PyTorch implementation of the **Pop**ulation-coded **S**piking **A**ctor **N**etwork (**PopSAN**) that integrates with both on-policy (PPO) and off-policy (DDPG, TD3, SAC) DRL algorithms for learning optimal and energy-efficient continuous control policies.
 
 The paper has been accepted at CoRL 2020.
+The arXiv preprint is available [here](https://arxiv.org/abs/2010.09635).
 
 ## Citation ##
 
