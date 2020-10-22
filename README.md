@@ -63,4 +63,4 @@ This will test the 10 trained models on Loihi. To run the code correctly, `data_
 
 ### Acknowledgment ###
 
-This work is supported by Intel's Neuromorphic Research Community Grant Award.
+This work is supported by Intel's Neuromorphic Research Community Grant Award. Part of our code, including DRL training and PPO multiprocessing environments, were built upon [OpenAI Spinning Up](https://github.com/openai/spinningup), [OpenAI Baselines](https://github.com/openai/baselines), and [Stable Baselines](https://github.com/hill-a/stable-baselines). We would like to thank their contribution to the community.
