@@ -5,7 +5,7 @@ This package is the PyTorch implementation of the **Pop**ulation-coded **S**piki
 The paper has been accepted at CoRL 2020.
 The arXiv preprint is available [here](https://arxiv.org/abs/2010.09635).
 
-**New**: We have created a new GitHub repo to demonstrate the online interaction with Loihi. If you are interested in using Loihi for real-time robot control, please [check it out](https://github.com/michaelgzt/loihi-control-loop-demo).
+**New**: We have created a new GitHub repo to demonstrate the online runtime interaction with Loihi. If you are interested in using Loihi for real-time robot control, please [check it out](https://github.com/michaelgzt/loihi-control-loop-demo).
 
 ## Citation ##
 
