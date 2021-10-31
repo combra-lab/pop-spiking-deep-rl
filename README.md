@@ -13,12 +13,17 @@ Guangzhi Tang, Neelesh Kumar, Raymond Yoo, and Konstantinos P. Michmizos.
 "Deep Reinforcement Learning with Population-Coded Spiking Neural Network for Continuous Control." *4th Conference on Robot Learning (CoRL 2020)*, Cambridge MA. USA.
 
 ```bibtex
-@inproceedings{tang2020deep,
-  title={Deep Reinforcement Learning with Population-Coded Spiking Neural Network for Continuous Control},
-  author={Tang, Guangzhi and Kumar, Neelesh and Yoo, Raymond and Michmizos, Konstantinos P},
-  booktitle={4th Conference on Robot Learning (CoRL 2020)},
-  pages={1--10},
-  year={2020}
+@inproceedings{pmlr-v155-tang21a,
+  title = 	 {Deep Reinforcement Learning with Population-Coded Spiking Neural Network for Continuous Control},
+  author =       {Tang, Guangzhi and Kumar, Neelesh and Yoo, Raymond and Michmizos, Konstantinos},
+  booktitle = 	 {Proceedings of the 2020 Conference on Robot Learning},
+  pages = 	 {2016--2029},
+  year = 	 {2021},
+  volume = 	 {155},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {16--18 Nov},
+  publisher =    {PMLR},
+  url = 	 {https://proceedings.mlr.press/v155/tang21a.html}
 }
 ```
 
