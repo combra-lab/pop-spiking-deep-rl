@@ -9,7 +9,7 @@ The arXiv preprint is available [here](https://arxiv.org/abs/2010.09635).
 
 ## Citation ##
 
-Guangzhi Tang, Neelesh Kumar, Raymond Yoo, Konstantinos Michmizos Proceedings of the 2020 Conference on Robot Learning, PMLR 155:2016-2029, 2021.
+Guangzhi Tang, Neelesh Kumar, Raymond Yoo, Konstantinos Michmizos, Deep Reinforcement Learning with Population-Coded Spiking Neural Network for Continuous Control, Proceedings of the 2020 Conference on Robot Learning, PMLR 155:2016-2029, 2021.
 
 ```bibtex
 @inproceedings{pmlr-v155-tang21a,
