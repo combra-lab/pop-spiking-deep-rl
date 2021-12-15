@@ -44,6 +44,8 @@ If you are interested in deploying the trained SNN on Loihi, please contact the 
 
 We have provided the `requirements.txt` for the python environment without NxSDK. In addition, we recommend setting up the environment using [virtualenv](https://pypi.org/project/virtualenv/).
 
+**New**: We have created `requirements-new.txt` for Ubuntu 20.04 with Python 3.8.10 and [MuJoCo 2.1.0 - The new open-source version of Mujoco](https://mujoco.org/).
+
 ## Example Usage ##
 
 #### 1. Training PopSAN ####
@@ -57,7 +59,18 @@ python td3_cuda_norm.py --env HalfCheetah-v3
 
 This will automatically train 1 million steps and save the trained models. The steps to train DDPG, SAC, and PPO are the same as above.
 
-#### 2. Deploy the trained PopSAN on Loihi ####
+#### 2. Test PopSAN ####
+
+To test the TD3-trained PopSAN, execute the following commands:
+
+```bash
+cd <Dir>/<Project Name>/popsan_drl/popsan_td3
+python test_td3_cpu.py --env HalfCheetah-v3
+```
+
+This will automatically render the Mujoco environment (press TAB to follow the robot) and test 1k steps.
+
+#### 3. Deploy the trained PopSAN on Loihi ####
 
 To evaluate PopSAN realization on Loihi, execute the following commands to start testing:
 
